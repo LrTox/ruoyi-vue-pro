@@ -1,4 +1,4 @@
-package cn.iocoder.yudao.module.ai.controller.admin.chat;
+    package cn.iocoder.yudao.module.ai.controller.admin.chat;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjUtil;
