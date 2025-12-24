@@ -13,19 +13,30 @@
         <!-- Server 主项目 -->
         <module>yudao-server</module>
         <!-- 各种 module 拓展 -->
+        <!-- system 模块：通用业务模块，支撑上层的核心业务。例如：用户、部门、权限、数据字典等 -->
         <module>yudao-module-system</module>
+        <!-- infra 模块：基础设施模块，提供运维管理与研发工具。例如：定时任务管理、服务器信息、代码生成器、接口文档等 -->
         <module>yudao-module-infra</module>
-<!--        <module>yudao-module-member</module>-->
-<!--        <module>yudao-module-bpm</module>-->
-<!--        <module>yudao-module-report</module>-->
-<!--        <module>yudao-module-mp</module>-->
-<!--        <module>yudao-module-pay</module>-->
-<!--        <module>yudao-module-mall</module>-->
-<!--        <module>yudao-module-crm</module>-->
-<!--        <module>yudao-module-erp</module>-->
-<!--        <module>yudao-module-iot</module>-->
+        <!-- member 模块：会员业务模块。例如：会员中心等 -->
+        <module>yudao-module-member</module>
+        <!-- bpm 模块：业务流程管理模块（Business Process Management），基于 Flowable 6 实现工作流功能。例如：流程定义、表单配置、审核中心（我的申请、我的待办、我的已办）等 -->
+        <module>yudao-module-bpm</module>
+        <!-- report 模块：数据可视化报表模块，基于「积木报表」实现。例如：打印设计、报表设计、图形设计、大屏设计等 -->
+        <module>yudao-module-report</module>
+        <!-- mp 模块：微信公众号模块。例如：提供微信公众号的账号、菜单、粉丝、标签、消息、自动回复、素材、模板通知、运营数据等功能 -->
+        <module>yudao-module-mp</module>
+        <!-- pay 模块：支付业务模块，提供业务的支付能力。例如：商户、应用、支付、退款等 -->
+        <module>yudao-module-pay</module>
+        <!-- mall 模块：商城大模块，由 product 商品、promotion 营销、trade 交易、statistics 统计等子模块组成 -->
+        <module>yudao-module-mall</module>
+        <!-- crm 模块：客户关系管理模块（Customer Relationship Management）。例如：客户、联系人、商机、合同、回款等 -->
+        <module>yudao-module-crm</module>
+        <!-- erp 模块：企业资源管理模块（Enterprise Resource Planning）。例如：采购、销售、库存、财务、产品等 -->
+        <module>yudao-module-erp</module>
+        <!-- iot 模块：物联网模块 -->
+        <module>yudao-module-iot</module>
         <!-- AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
-<!--        <module>yudao-module-ai</module>-->
+        <module>yudao-module-ai</module>
     </modules>
 
     <name>${project.artifactId}</name>
